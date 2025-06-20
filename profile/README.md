@@ -5,13 +5,13 @@ This is a collection of tools and software that enables collaboration with cobot
 
 ### Projects
 The repository currently holds the following projects:
-| Name | Repository | Status |
-| ---- | ---------- | ------ |
-| Assembly | [link]() | Much work to do |
-| Authoring | [link]() | Much work to do |
-| WebCobotAR | [link]() | Much work to do |
-| HoloCobotAR | [link]() | Slowly expanding |
-| UR-adapter | [link]() | Stable |
+| Name | Repository | Status | Latest |
+| ---- | ---------- | ------ | ------ |
+| Assembly | [link]() | Much work to do | |
+| Authoring | [link]() | Much work to do | |
+| WebCobotAR | [link]() | Much work to do | | 
+| HoloCobotAR | [link]() | Slowly expanding | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/protocol?style=for-the-badge) |
+| UR-adapter | [link]() | Stable | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/ur-adapter?style=for-the-badge) |
 
 ### NATS and protobuf
 For some reason, the author decided to use NATS and protobuf as the main communication platform between services and user interfaces.
