@@ -7,10 +7,10 @@ This is a collection of tools and software that enables collaboration with cobot
 The repository currently holds the following projects:
 | Name | Repository | Status | Latest |
 | ---- | ---------- | ------ | ------ |
-| Assembly | [link](https://github.com/cobotar/Assembly) | Slowly expanding | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/assembly?style=for-the-badge) | 
-| Authoring | [link](https://github.com/cobotar/Authoring) | All basics are working | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/authoring?style=for-the-badge) | 
+| Assembly | [link](https://github.com/cobotar/Assembly) | Slowly expanding | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/Assembly?style=for-the-badge) | 
+| Authoring | [link](https://github.com/cobotar/Authoring) | All basics are working | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/Authoring?style=for-the-badge) | 
 | WebCobotAR | [link](https://github.com/cobotar/web-cobotar) | Almost there | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/web-cobotar?style=for-the-badge) | 
-| HoloCobotAR | [link](https://github.com/cobotar/HoloCobotAR) | Slowly expanding | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/protocol?style=for-the-badge) |
+| HoloCobotAR | [link](https://github.com/cobotar/HoloCobotAR) | Slowly expanding | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/HoloCobotAR?style=for-the-badge) |
 | UR-adapter | [link](https://github.com/cobotar/ur-adapter) | Stable | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/ur-adapter?style=for-the-badge) |
 | Protocol | [link](https://github.com/cobotar/protocol) | Unstable | ![GitHub Tag](https://img.shields.io/github/v/tag/cobotar/protocol?style=for-the-badge) |
 
