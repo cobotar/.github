@@ -41,6 +41,7 @@ A change that touches several repos gets a **parent issue** where it starts (usu
 
 - **TODO comments.** Small, local TODOs can stay as comments. Anything that needs a decision or spans repos becomes an issue, and the comment points to it: `// TODO(#42): ...` or `// TODO(cobotar/protocol#7): ...`.
 - **Commits** follow Conventional Commits, as the existing history does: `feat(ar): ...`, `fix(seeding): ...`, `refactor(authoring): ...`. Breaking protocol changes use `!`: `feat(ar)!: ...`.
+- **New issues go on the board.** Issues created with the web form are added automatically. With `gh`, pass `--project "CobotAR Roadmap"` to `gh issue create`. As a fallback, the `add-to-project` GitHub Action in each repo adds any new issue. Set Status, Priority, Area and Size on the board afterwards.
 - **Closing issues.** Write `Fixes cobotar/<repo>#<n>` in a commit or PR description. It closes the issue on merge, and the board moves it to Done.
 - **Protocol releases.** Bump the version in `protocol`, update `CHANGELOG.md`, then update the consumers. Each consumer has a sub-issue.
 
