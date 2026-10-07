@@ -1,0 +1,18 @@
+name: Task
+description: A concrete piece of work, refactoring or chore
+type: Task
+projects: ["cobotar/1"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: What needs to be done, with permalinks to the code involved.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Checklist
+      value: |
+        - [ ]

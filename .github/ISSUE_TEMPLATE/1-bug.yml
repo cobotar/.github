@@ -1,0 +1,32 @@
+name: Bug
+description: Something behaves incorrectly or crashes
+type: Bug
+projects: ["cobotar/1"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: What goes wrong, and where (component, screen, endpoint, NATS subject)?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: Steps, seed/config used (e.g. `configs/demo-large.yaml`), device (HoloLens 2, browser), protocol version.
+      placeholder: |
+        1. Load seed ...
+        2. Start process run ...
+        3. ...
+  - type: textarea
+    id: code
+    attributes:
+      label: Relevant code or logs
+      description: Permalinks to the lines involved (press `y` on GitHub to get one), log excerpts or screenshots.

@@ -1,0 +1,32 @@
+name: Design decision
+description: An open design or protocol question that must be settled before implementation
+type: Task
+labels: ["needs-decision"]
+projects: ["cobotar/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for `TODO(protocol review)` style questions. Record the outcome in a comment, and in the proto/docs, before closing.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question(s)
+      description: What exactly needs to be decided? One question per bullet.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Where it shows up (permalinks), what depends on it, constraints.
+  - type: textarea
+    id: options
+    attributes:
+      label: Options considered
+      description: Each option with its pros and cons. A recommendation if you have one.
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision
+      description: Leave empty when opening; fill in (or comment) when decided.
